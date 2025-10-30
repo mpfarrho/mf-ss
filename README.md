@@ -3,13 +3,12 @@ Codes based on M. Marcellino & M. Pfarrhofer (2025): "[Nonparametric Mixed Frequ
 
 Integrated with the [alfred](https://cran.r-project.org/web/packages/alfred/index.html) R-package to access real-time data from [alfred.stlouisfed.org](https://alfred.stlouisfed.org).
 
-- > [!CAUTION]
 > These codes come without technical support of any kind. The code is free to use, provided that the paper is cited properly.
 
 ## Source files
-- `setup_mfvar` is the main estimation file which downloads and transforms data
-- `est_mfvar` estimates the model and produces outputs
-- `utils` contains several helper functions
+- `setup_mfvar` is the main estimation file which downloads and transforms data (requires user input)
+- `est_mfvar` estimates the model and produces outputs (is sourced automatically from `setup_mfvar`)
+- `utils` contains several helper functions (is sourced automatically from `est_mfvar`)
 
 ### Estimation options in `setup_mfvar`
 - Data settings are described in the file
