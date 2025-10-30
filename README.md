@@ -3,7 +3,7 @@ Codes based on M. Marcellino & M. Pfarrhofer (2025): "[Nonparametric Mixed Frequ
 
 > These codes come without technical support of any kind. The code is free to use, provided that the paper is cited properly.
 
-Estimation is integrated with the [alfred](https://cran.r-project.org/web/packages/alfred/index.html) R-package to access real-time data from [alfred.stlouisfed.org](https://alfred.stlouisfed.org).
+Estimation is integrated with the [alfred](https://cran.r-project.org/web/packages/alfred/index.html) R-package to access real-time data from [alfred.stlouisfed.org](https://alfred.stlouisfed.org) for the United States.
 
 ## Source files
 - `setup_mfvar` is the main estimation file which downloads and transforms data (requires user input)
