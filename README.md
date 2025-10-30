@@ -1,7 +1,7 @@
+> These codes come without technical support of any kind. The code is free to use, provided that the paper is cited properly.
+
 ## Description
 Codes based on M. Marcellino & M. Pfarrhofer (2025): "[Nonparametric Mixed Frequency Monitoring Macro-at-Risk](https://doi.org/10.1016/j.econlet.2025.112498)" _Economics Letters_ *255* 112498, using state space MF-VARs estimated with precision sampling (including MF-BART). See also [mf-bavart](https://github.com/mpfarrho/mf-bavart) for related work.
-
-> These codes come without technical support of any kind. The code is free to use, provided that the paper is cited properly.
 
 Estimation is integrated with the [alfred](https://cran.r-project.org/web/packages/alfred/index.html) R-package to access real-time data from [alfred.stlouisfed.org](https://alfred.stlouisfed.org) for the United States.
 
